@@ -20,6 +20,7 @@ Optional library: argparse
 1. Run the Picture_Compressor_All.py first to compress all pictures thats already on the server.
 2. Setup a schedule which runs Picture_Compressor_Yesterday.py at the very beginning of the day to compress new pictures uploaded
 3. Delete bak files if needed with bak_deletion.py
+
 WARNING: DO not run the Picture_Compressor_All.py twice, and do not run Picture_Compressor_Yesterday.py twice in a day
 
 Two types of operating senario:
