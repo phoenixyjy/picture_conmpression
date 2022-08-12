@@ -9,12 +9,6 @@
 ### Usage: input the file directory right after calling the function
 ### e.g.: python3 resize.py -d Images, where Images is the directory of the file folder
 
-# @@: denotes importancy 
-### NOTE 1: This script only process all pictures generated on PREVIOUS DATE!!!
-### NOTE 2: The date is determined by CREATION DATE instead of modified date
-### NOTE 3: This script can only be executed ONCE PER DAY PER DIRECTORY!!!
-### NOTE 4: This script will @@IGNORE pictures that are LESS THAN 100kb!!!
-### NOTE 5: Potential library required for package PIL on linux
 
 
 # All libraries required
@@ -190,16 +184,6 @@ def compressor_main(path_of_the_directory):
 #     else:
 #         print('Invalid Path!')
 #         continue
-
-
-# In[25]:
-
-
-compressor_main('C:/Users/phoen/OneDrive/Desktop/test')
-
-
-# In[ ]:
-
 
 
 
