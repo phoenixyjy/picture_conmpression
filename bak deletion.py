@@ -46,7 +46,7 @@ def delete_bak(path):
 # In[66]:
 
 
-delete_bak('C:/Users/phoen/OneDrive/Desktop/test')
+delete_bak('C:/test')
 
 
 # In[ ]:
