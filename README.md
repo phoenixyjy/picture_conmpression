@@ -29,5 +29,5 @@ Two types of operating senario:
   e.g.: compressor_main('C:/test')
 
 
-2. Under the linux command system: install all the required libraries first then run the script
+2. Under the linux command system: install all the required libraries first then run the script, uncommend the last section of the code.
   e.g.: python3 Picture_Compressor_All.py -d "enter your directory here"
