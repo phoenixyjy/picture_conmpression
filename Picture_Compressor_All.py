@@ -9,11 +9,6 @@
 ### Usage: input the file directory right after calling the function
 ### e.g.: python3 resize.py -d Images, where Images is the directory of the file folder
 
-# @@: denotes importancy 
-### NOTE 1: This script can only be executed @@ONCE PER DAY!!!
-### NOTE 2: This script will @@IGNORE pictures that are @@LESS THAN 100kb!!!
-### NOTE 3: Potential library required for package PIL on linux
-
 
 
 import os
@@ -171,7 +166,7 @@ def compressor_main(path_of_the_directory):
 # In[7]:
 
 
-compressor_main('C:/Users/phoen/OneDrive/Desktop/test')
+compressor_main('C:/test")
 
 
 # In[ ]:
